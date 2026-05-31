@@ -1,9 +1,9 @@
 pkgname=meow-simulator
 pkgver=1.0.2
-pkgrel=2
+pkgrel=3
 pkgdesc="A boykisser on your computer"
 arch=('any')
-depends=('pyside6' 'ffmpeg')
+depends=('pyside6' 'ffmpeg' 'qt6-tools' 'qt6-multimedia')
 source=(
   'main.py'
   'meow-simulator.desktop'
